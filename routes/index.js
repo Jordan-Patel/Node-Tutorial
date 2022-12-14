@@ -4,12 +4,14 @@ const router = express.Router()
 
 const profiles = {
   epatel: {
+    image: '/images/emil.jpeg',
     name: 'Emil Patel',
     company: 'EP',
     languages: ['German', 'English']
   },
 
   jpatel: {
+    image: '/images/jordan.jpeg',
     name: 'Jordan Patel',
     company: 'Logical Web Design',
     languages: ['English', 'Spanish', 'German']
